@@ -1,6 +1,14 @@
 /* Your Styles Here */
+
+
 body {
-    background-color: #fffef5;
+    background: repeating-linear-gradient(
+        45deg,
+        #fffef5,
+        #fffef5 50px,
+        #faf8e7 50px,
+        #faf8e7 100px
+    );
     display: grid;
     place-items: center;
     min-height: 100vh;
